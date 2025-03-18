@@ -23,11 +23,15 @@ This contest has its own repository with pre-prepared data (found in the data fo
 
 For this example contest, we are looking to forecast monthly regional case numbers for the 6 WHO regions (African, Eastern Mediterranean, European, Region of the Americas, South-East Asia, Western Pacific) for the remainder of 2024 (August-December).
 
-## Joining the Contest & Getting Started
+## Joining the contest & Getting Started
 
-The contest repo can be found here: [Contest-Example-Mpox](https://github.com/SPHERE-PPL/Competition-Example-Mpox).
+In order to join the contest, you will need to fork or download the repo.
 
-The simplest way to get started is to fork this repo and then clone it onto your local machine. This will allow the organisers to see the forks and keep track of entrants. Alternatively, you can download the repo manually and get started. Each entry must be uploaded to a public github repo to be considered (see Rules below)
+To fork the repo, simply press the "fork" button, which can be found at the top of this github page. A step-by-step guide can be found [here](https://scribehow.com/shared/Forking_a_SPHERE-PPL_Forecasting_Contest_Repository_on_GitHub__o_bLCyQlTsO0o5YCmGsk8Q).
+
+To download the data without a github account, click the code box dropdown and download a zip of the data directly to your computer.
+
+![Fork or Download](https://github.com/SPHERE-PPL/forecasting-contest-template/blob/main/contest_media/fork_button.png)
 
 ## Rules
 
@@ -36,15 +40,25 @@ The simplest way to get started is to fork this repo and then clone it onto your
 -   All entries must follow the submission formats outlined below.
 -   All entries must include a max 1000 word report to accompany the forecast analyses. This can be as a separate PDF/hmtl or incorporated into a quarto/jupyter notebook.
 
+## How to Win!
+
+Awards will be given across two categories:
+
+1. The team with the closest forecast, as measured by Root Mean Squared Error.  
+
+2. The team with the most interesting report.
+
+The winners will be selected by the SPHERE-PPL Team and will be invited to present their forecasts at the next Annual Meeting, with travel covered by the project.
+
 ## How to Submit
 
-We are in the process of building back-end architecture to automatically find all forked repos and enter them into the contest but in the interim, please send an email to [contest@sphere-ppl.org](mailto:contest@sphere-ppl.org) with a link to the public github repo.
+If you forked the repo, congratulations, you have already entered the contest. We will run the [Forecast AggregatoR](https://github.com/SPHERE-PPL/Forecast-AggregatoR) the day following the close of the contest and your repo will be collated with the entries.
 
-The entries should be saved in the submission folder with the forecast estimates saved as a csv (i.e. forecast.csv) and the report saved as a pdf, html or a quarto md (i.e. report.pdf, report.html or report.qmd). The forecast estimates must contain three columns: WHO region, month start date and Estimate (see example in the repo).
+If you did not fork the repo, please send an email to [contest\@sphere-ppl.org](mailto:contest@sphere-ppl.org) with a link to your public github repo where your forecast and report are stored. These will then be collated with the other entries.
 
 ## Connect with the Community
 
-This contest has a page on our SPHERE-PPL Zulip where teams can message and get clarification/advice. We will also be monitoring the contest repo. Regular updates will be posted on both platforms.
+You can join our Zulip [here](https://sphereppl.zulipchat.com/join/olwtpi7g3wbyh5mxv4uwipaw/) and check out our events page to see the next online catch-up.
 
 ## License
 
